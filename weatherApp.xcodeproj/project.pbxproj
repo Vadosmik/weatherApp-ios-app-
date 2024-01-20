@@ -11,6 +11,7 @@
 		758285982B5B474F009284CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758285972B5B474F009284CA /* ContentView.swift */; };
 		7582859A2B5B4752009284CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758285992B5B4752009284CA /* Assets.xcassets */; };
 		7582859D2B5B4752009284CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7582859C2B5B4752009284CA /* Preview Assets.xcassets */; };
+		758285AA2B5B60EC009284CA /* WeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758285A92B5B60EC009284CA /* WeatherCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		758285972B5B474F009284CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		758285992B5B4752009284CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7582859C2B5B4752009284CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		758285A92B5B60EC009284CA /* WeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				758285952B5B474F009284CA /* weatherAppApp.swift */,
 				758285972B5B474F009284CA /* ContentView.swift */,
+				758285AB2B5B60F7009284CA /* view */,
 				758285992B5B4752009284CA /* Assets.xcassets */,
 				7582859B2B5B4752009284CA /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				7582859C2B5B4752009284CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		758285AB2B5B60F7009284CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				758285A92B5B60EC009284CA /* WeatherCardView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				758285982B5B474F009284CA /* ContentView.swift in Sources */,
+				758285AA2B5B60EC009284CA /* WeatherCardView.swift in Sources */,
 				758285962B5B474F009284CA /* weatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

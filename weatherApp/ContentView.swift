@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ZStack{
+            WeatherCardView()
+        }.background(
+            RadialGradient(
+                stops: [
+                    Gradient.Stop(color: Color(red: 0.71, green: 0.89, blue: 0.85), location: 0.50),
+                    Gradient.Stop(color: Color(red: 0.56, green: 0.84, blue: 0.77), location: 1.00)
+                    ],
+                center: .center,
+                startRadius: 35,
+                endRadius: 250)
+        )
     }
 }
 
